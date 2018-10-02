@@ -1,0 +1,1 @@
+{"uuid":"21435a15-c95d-49ba-886b-a8f2f678b97e","name":"com.rutu.yash.TestFun.afterMethod","description":"","start":1538445241729,"stop":1538445246776,"children":["0055ce8b-1422-48d6-bcbd-99c1583a26dc"],"afters":[{"name":"afterMethod","status":"passed","stage":"finished","description":"","start":1538445241729,"stop":1538445246776}]}

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.rutu.yash.TestFun
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 107.938 s <<< FAILURE! - in com.rutu.yash.TestFun
+attributeTest(com.rutu.yash.TestFun)  Time elapsed: 6.57 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.ebay.com/b/Auto-Parts-Accessories/6028/bn_569479] but found [null]
+	at com.rutu.yash.TestFun.attributeTest(TestFun.java:43)
+
+backForwardTest(com.rutu.yash.TestFun)  Time elapsed: 4.205 s  <<< FAILURE!
+java.lang.AssertionError: expected [xyz] but found [GoogleGoogleProblem loading pageGoogle]
+	at com.rutu.yash.TestFun.backForwardTest(TestFun.java:49)
+
