@@ -79,7 +79,7 @@ public class PageFun {
 	}
 
 	public String dragnDropTest() {
-		// TODO Auto-generated method stub
+		String text = "xyz";
 		return null;
 	}
 
