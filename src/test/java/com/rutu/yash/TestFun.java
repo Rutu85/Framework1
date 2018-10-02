@@ -49,6 +49,11 @@ public class TestFun {
 		Assert.assertEquals(pageFun.backForTest(), data.backForText);
 	}
 	
+	@Test
+	public void dragnDrop() {
+		pageFun.openPage(data.dragnDroplink);
+		Assert.assertEquals(pageFun.dragnDropTest(), data.dragndropText);
+	}
 	
 	@AfterMethod
 	public void afterMethod() {

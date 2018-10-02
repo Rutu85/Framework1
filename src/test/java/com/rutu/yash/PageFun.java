@@ -78,4 +78,9 @@ public class PageFun {
 		return titles;
 	}
 
+	public String dragnDropTest() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
