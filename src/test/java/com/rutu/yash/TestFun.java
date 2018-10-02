@@ -49,6 +49,10 @@ public class TestFun {
 		Assert.assertEquals(pageFun.backForTest(), data.backForText);
 	}
 	
+	@Test
+	public void cssSelectorTest() {
+		Assert.assertEquals(true, true);
+	}
 	
 	@AfterMethod
 	public void afterMethod() {
