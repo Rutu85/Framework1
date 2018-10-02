@@ -51,6 +51,7 @@ public class TestFun {
 	
 	@Test
 	public void cssSelectorTest() {
+		pageFun.openPage(data.cssSelectorLink);
 		Assert.assertEquals(true, true);
 	}
 	

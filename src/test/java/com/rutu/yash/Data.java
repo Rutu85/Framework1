@@ -15,6 +15,7 @@ public class Data {
 	String attributeText;
 	String backforLink;
 	String backForText;
+	String cssSelectorLink;
 	
 	public void openPropertiesFile() throws IOException {
 		file = new FileInputStream("Data/prop.properties");
@@ -28,7 +29,7 @@ public class Data {
 		attributeText = prop.getProperty("attributeText");
 		backforLink = prop.getProperty("backforLink");
 		backForText = prop.getProperty("backForText");
-		
+		cssSelectorLink = prop.getProperty("cssSelectorLink");
 	}
 
 }
