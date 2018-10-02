@@ -15,7 +15,12 @@ public class Data {
 	String attributeText;
 	String backforLink;
 	String backForText;
+<<<<<<< HEAD
 	String cssSelectorLink;
+=======
+	String dragnDroplink;
+	String dragndropText;
+>>>>>>> DragAndDrop
 	
 	public void openPropertiesFile() throws IOException {
 		file = new FileInputStream("Data/prop.properties");
@@ -29,7 +34,14 @@ public class Data {
 		attributeText = prop.getProperty("attributeText");
 		backforLink = prop.getProperty("backforLink");
 		backForText = prop.getProperty("backForText");
+<<<<<<< HEAD
 		cssSelectorLink = prop.getProperty("cssSelectorLink");
+=======
+		dragnDroplink = prop.getProperty("dragnDroplink");
+		dragndropText = prop.getProperty("dragndropText");
+		
+		
+>>>>>>> DragAndDrop
 	}
 
 }

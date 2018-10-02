@@ -78,4 +78,9 @@ public class PageFun {
 		return titles;
 	}
 
+	public String dragnDropTest() {
+		String text = "xyz";
+		return null;
+	}
+
 }

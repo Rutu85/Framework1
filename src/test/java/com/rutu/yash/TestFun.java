@@ -50,9 +50,15 @@ public class TestFun {
 	}
 	
 	@Test
+<<<<<<< HEAD
 	public void cssSelectorTest() {
 		pageFun.openPage(data.cssSelectorLink);
 		Assert.assertEquals(true, true);
+=======
+	public void dragnDrop() {
+		pageFun.openPage(data.dragnDroplink);
+		Assert.assertEquals(pageFun.dragnDropTest(), data.dragndropText);
+>>>>>>> DragAndDrop
 	}
 	
 	@AfterMethod
